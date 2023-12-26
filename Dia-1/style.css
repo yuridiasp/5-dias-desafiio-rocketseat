@@ -1,0 +1,81 @@
+:root {
+    --content-bg: #000000;
+    --twitter-color: #00ACEE;
+    --github-color: #2B3137;
+    --instagram-color: #E1306C;
+    --youtube-color: #FF0000;
+    --linkedin-color: #0E76A8;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--content-bg);
+    padding: 80px 30px;
+    gap: 10px;
+}
+
+.twitter {
+    color: var(--twitter-color);
+}
+
+.github {
+    color: var(--github-color);
+}
+
+.instagram {
+    color: var(--instagram-color);
+}
+
+.youtube {
+    color: var(--youtube-color);
+}
+
+.linkedin {
+    color: var(--linkedin-color);
+}
+
+a {
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 1em;
+    transition: width 0.5s ease-in-out;
+    text-align: center;
+}
+
+a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    overflow: hidden;
+}
+
+span {
+    display: none;
+    color: black;
+    filter: opacity(0);
+    transition: filter 500ms;
+}
+
+a:hover {
+    width: 10em;
+}
+
+a:hover span {
+    display: initial;
+    filter: opacity(1);
+    animation: margin-left-animated 500ms;
+}
+
+@keyframes margin-left-animated {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 0;
+    }
+}

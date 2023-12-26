@@ -1,0 +1,11 @@
+{
+  "name": "5-dias-desafiio-rocketseat",
+  "version": "1.0.0",
+  "description": "Repositório contendo o desafio diario gerado pela Rocketseat em que será utilizado técnicas de CSS durante 5 dias. A cada dia é proposto um novo desafio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri Dias Pereira Gomes",
+  "license": "ISC"
+}
