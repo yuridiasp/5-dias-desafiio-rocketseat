@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--content-bg);
+    color: var(--content-font-color);
+    padding: 50px 0;
+}
+
+li {
+    display: none;
+    list-style: none;
+    color: var(--content-list-font-color);
+}
+
+li.active {
+    display: block;
+}
