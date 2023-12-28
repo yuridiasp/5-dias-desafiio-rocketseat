@@ -1,6 +1,6 @@
 # Desafio 5 Dias CSS Rocketseat
 
-  Repositório contendo o desafio diario gerado pela [Rocketseat](https://www.rocketseat.com.br/) em que será utilizado técnicas de CSS durante 5 dias. A cada dia é proposto um novo desafio.
+  Repositório contendo o desafio diário promovido pela [Rocketseat](https://www.rocketseat.com.br/) em que será utilizado técnicas de CSS durante 5 dias. A cada dia é proposto um novo desafio.
 
 ### [Dia 1 - Ícones de Social Media](https://github.com/yuridiasp/5-dias-desafiio-rocketseat/tree/main/Dia-1)
 
