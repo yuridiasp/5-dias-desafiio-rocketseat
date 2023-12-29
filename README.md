@@ -12,11 +12,11 @@ Repositório contendo o desafio diario gerado pela [Rocketseat](https://www.rock
 
 ### [Dia 3 - Botão Hover](https://github.com/yuridiasp/5-dias-desafiio-rocketseat/tree/main/Dia-3)
 
-[Post Original](https://www.instagram.com/p/C1ZqZx3MZaU/)
+[Post Original](https://www.instagram.com/p/C1ZqZx3MZaU)
 
-### [Dia 4 - (Pendente)](#)
+### [Dia 4 - Avaliação](https://github.com/yuridiasp/5-dias-desafiio-rocketseat/tree/main/Dia-4)
 
-[Post Original](#)
+[Post Original](https://www.instagram.com/p/C1cPNO9JUOa)
 
 ### [Dia 5 - (Pendente)](#)
 

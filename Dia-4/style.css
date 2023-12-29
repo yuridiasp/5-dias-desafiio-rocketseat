@@ -1,0 +1,59 @@
+:root {
+    --star-dimension: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--content-bg);
+}
+
+form {
+    display: flex;
+    gap: 5px;
+    padding: 30px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    color: var(--content-list-font-color);
+    border: none;
+    cursor: default;
+    font-size: 1.5em;
+}
+
+.star {
+    position: relative;
+    width: var(--star-dimension);
+    height: var(--star-dimension);
+    background: none;
+    border: none;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    background: var(--star-btn-bg);
+    width: var(--star-dimension);
+    height: var(--star-dimension);
+    clip-path: polygon(
+        0% 40%,
+        35% 40%,
+        50% 0%,
+        65% 40%,
+        100% 40%,
+        70% 60%,
+        85% 100%,
+        50% 75%,
+        15% 100%,
+        30% 60%
+        );
+    transition: background 500ms;
+}
+
+.star:hover::after, .star:hover ~ .star::after {
+    background: var(--star-btn-bg-hover);
+}
