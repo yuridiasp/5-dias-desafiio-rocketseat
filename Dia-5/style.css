@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: var(--content-bg);
+}
+
+main {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: filter 1000ms;
+}
+
+img:hover {
+    filter: grayscale(0);
+}
